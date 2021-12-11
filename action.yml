@@ -1,6 +1,0 @@
-# action.yml
-name: 'Caddy'
-description: 'Build caddy image'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
