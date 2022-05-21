@@ -1,8 +1,7 @@
 FROM caddy:2-builder AS builder
 
 RUN xcaddy build \
-    --with github.com/greenpau/caddy-auth-portal \
-    --with github.com/greenpau/caddy-authorize
+    --with github.com/greenpau/caddy-security
 
 FROM caddy:2
 
