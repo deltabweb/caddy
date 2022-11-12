@@ -1,3 +1,3 @@
 # caddy
 
-Automated build of Caddy v2 docker image with `caddy-security` plugin
+Automated build of Caddy v2 docker image with plugins
