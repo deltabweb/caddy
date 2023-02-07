@@ -1,7 +1,8 @@
 FROM caddy:2-builder AS builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/digitalocean
+    --with github.com/caddy-dns/digitalocean \
+    --with github.com/caddy-dns/lego-deprecated
 
 FROM caddy:2
 
